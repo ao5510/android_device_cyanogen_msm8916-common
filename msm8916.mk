@@ -95,9 +95,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.lineage
 
-# Exclude AudioFX
-TARGET_EXCLUDES_AUDIOFX := true
-
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
